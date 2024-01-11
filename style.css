@@ -46,7 +46,6 @@ p {
   letter-spacing: 14px;
 }
 main {
-  padding: 15px;
   min-height: 100vh;
   display: flex;
   display: -webkit-flex;
@@ -73,10 +72,9 @@ main {
 }
 .phone {
   width: 375px;
-  height: 812px;
+  height: 100vh;
   background: var(--phone-bg);
-  border: 8px solid var(--theme-dark);
-  border-radius: 28px;
+
   position: relative;
 }
 .btn {
@@ -125,7 +123,7 @@ main {
     10px 10px 20px rgba(174, 174, 192, 0.4);
 }
 .list {
-  margin-bottom: 36px;
+  margin-bottom: 30px;
   padding: 0 20px;
 }
 .status-bar img {
